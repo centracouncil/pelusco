@@ -194,7 +194,7 @@ gsap.to(".philosophy-title", {
 // Mobile Menu Toggle
 const menuToggle = document.querySelector('.menu-toggle');
 const mobileMenu = document.querySelector('.mobile-menu');
-const mobileLinks = document.querySelectorAll('.mobile-links a');
+const mobileLinks = document.querySelectorAll('.mobile-links a, .mobile-cta');
 
 let isMenuOpen = false;
 
